@@ -1,0 +1,50 @@
+.hero-sec {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    
+
+    .img {
+        background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-desc {
+        position: absolute;
+        color: white;
+        font-size: 24px;
+         span {
+            background-color: #ffb606;
+            padding: 5px 10px;
+        }
+    }
+}
+.second-sec{
+    .courses_desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .container{
+        border:1px solid black;
+        width: 80%;
+        margin-left: 200px;
+        .first-card{
+            border:1px solid red;
+            width: 500px;
+            position: absolute;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .card_img{
+                img{
+                    position: relative;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
